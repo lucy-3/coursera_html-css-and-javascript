@@ -2,6 +2,10 @@
   background-color: grey;
 }
 
+.row {
+  margin-bottom: 20px;
+}
+
 body {
   color: black;
   font-size: 16px;
@@ -15,8 +19,19 @@ body {
   text-decoration: none;
 }
 
-#menu {
-  text-align: center;
+.menu { /* Our menu */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-category { /* Chicken, Beef, Sushi */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-section {
+  background-color: grey;
+  padding: 0 5px 0 5px;
 }
 
 /* Desktop / Medium devices */
