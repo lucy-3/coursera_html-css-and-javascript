@@ -1,0 +1,35 @@
+#header-nav {
+  background-color: grey;
+}
+
+body {
+  color: black;
+  font-size: 16px;
+}
+
+.navbar-header a { /* restaurant name */
+  color: black;
+}
+
+.navbar-header a:hover { /* restaurant name */
+  text-decoration: none;
+}
+
+#menu {
+  text-align: center;
+}
+
+/* Desktop / Medium devices */
+@media (min-width: 768px) {
+
+}
+
+/* Tablet / Small devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/* Mobile / Extra small devices */
+@media (max-width: 575px) {
+  
+}
