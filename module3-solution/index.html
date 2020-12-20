@@ -14,29 +14,56 @@
       <div class="container">
         <div class="navbar-header">
           <a href="index.html"><h1>Restaurant name</h1></a>
+
+          <!--nav button--> 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
         </div>
       </div>
     </nav>
   </header>
 
+  <!--collapsable nav--> 
+  <div id="collapsable-nav" class="collapse navbar-collapse">
+    <ul id="nav-list" class="nav navbar-nav">
+      <li class="visible-md visible-sm"><a href="#chicken">Chicken</a></li>
+      <li class="visible-md visible-sm"><a href="#beef">Beef</a></li>
+      <li class="visible-md visible-sm"><a href="#sushi">Sushi</a></li>
+    </ul>
+  </div>
+  
   <div class="container">
-    <div class="row">
+    <div class="row col-x-12">
       <h1 class="menu">Our Menu</h1>
     </div>
 
-    <div class="row menu-section">
-      <h2 class="menu-category">Chicken</h2>
-      <p class="menu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim nulla quis tellus vulputate, quis tincidunt neque commodo. Nam consequat posuere congue. In hac habitasse platea dictumst. Morbi at ultrices nisi, sed mollis eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id malesuada tortor, et varius libero. Aenean lectus lectus, tempor ut iaculis non, rutrum et urna. Fusce et lectus neque. Cras sit amet feugiat mauris, id accumsan risus. Vivamus eleifend sem et mauris malesuada convallis.</p>
+    <div class="row menu-section col-x-12">
+      <h2 id="chicken" class="menu-category">Chicken</h2>
+      <p class="menu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim nulla quis tellus vulputate, quis tincidunt neque commodo. Nam consequat posuere congue. In hac habitasse platea dictumst. Morbi at ultrices nisi, sed mollis eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id malesuada tortor, et varius libero. Aenean lectus lectus, tempor ut iaculis non, rutrum et urna. Fusce et lectus neque. Cras sit amet feugiat mauris, id accumsan risus. Vivamus eleifend sem et mauris malesuada convallis.
+        <br><br>
+        Praesent scelerisque nisl eu nunc dictum, nec mattis est iaculis. Etiam sodales, eros vitae venenatis lobortis, ligula eros aliquam erat, id suscipit erat justo eu erat. Duis vitae lacinia ex. Aenean efficitur sodales tortor consequat feugiat. Mauris quis tincidunt dolor. Fusce ultrices condimentum justo, at ullamcorper dolor sagittis viverra. In hac habitasse platea dictumst. Praesent volutpat cursus tellus, quis facilisis ipsum fringilla in. Donec ac ex consequat, viverra justo sit amet, porttitor mi. Mauris dignissim nunc quis magna euismod, ut consectetur lacus convallis. Donec eu sagittis risus. Nulla lacinia, sapien sed dictum faucibus, ex nunc iaculis mauris, quis feugiat quam enim non nisl. Nullam dictum aliquet arcu, vel efficitur est malesuada vel.
+      </p>
     </div>
 
-    <div class="row menu-section">
-      <h2 class="menu-category">Beef</h2>
-      <p class="menu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim nulla quis tellus vulputate, quis tincidunt neque commodo. Nam consequat posuere congue. In hac habitasse platea dictumst. Morbi at ultrices nisi, sed mollis eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id malesuada tortor, et varius libero. Aenean lectus lectus, tempor ut iaculis non, rutrum et urna. Fusce et lectus neque. Cras sit amet feugiat mauris, id accumsan risus. Vivamus eleifend sem et mauris malesuada convallis.</p>
+    <div class="row menu-section col-x-12">
+      <h2 id="beef" class="menu-category">Beef</h2>
+      <p class="menu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim nulla quis tellus vulputate, quis tincidunt neque commodo. Nam consequat posuere congue. In hac habitasse platea dictumst. Morbi at ultrices nisi, sed mollis eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id malesuada tortor, et varius libero. Aenean lectus lectus, tempor ut iaculis non, rutrum et urna. Fusce et lectus neque. Cras sit amet feugiat mauris, id accumsan risus. Vivamus eleifend sem et mauris malesuada convallis.
+        <br><br>
+        Praesent scelerisque nisl eu nunc dictum, nec mattis est iaculis. Etiam sodales, eros vitae venenatis lobortis, ligula eros aliquam erat, id suscipit erat justo eu erat. Duis vitae lacinia ex. Aenean efficitur sodales tortor consequat feugiat. Mauris quis tincidunt dolor. Fusce ultrices condimentum justo, at ullamcorper dolor sagittis viverra. In hac habitasse platea dictumst. Praesent volutpat cursus tellus, quis facilisis ipsum fringilla in. Donec ac ex consequat, viverra justo sit amet, porttitor mi. Mauris dignissim nunc quis magna euismod, ut consectetur lacus convallis. Donec eu sagittis risus. Nulla lacinia, sapien sed dictum faucibus, ex nunc iaculis mauris, quis feugiat quam enim non nisl. Nullam dictum aliquet arcu, vel efficitur est malesuada vel.
+      </p>
     </div>
 
-    <div class="row menu-section">
-      <h2 class="menu-category">Sushi</h2>
-      <p class="menu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim nulla quis tellus vulputate, quis tincidunt neque commodo. Nam consequat posuere congue. In hac habitasse platea dictumst. Morbi at ultrices nisi, sed mollis eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id malesuada tortor, et varius libero. Aenean lectus lectus, tempor ut iaculis non, rutrum et urna. Fusce et lectus neque. Cras sit amet feugiat mauris, id accumsan risus. Vivamus eleifend sem et mauris malesuada convallis.</p>
+    <div class="row menu-section col-x-12">
+      <h2 id="sushi" class="menu-category">Sushi</h2>
+      <p class="menu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim nulla quis tellus vulputate, quis tincidunt neque commodo. Nam consequat posuere congue. In hac habitasse platea dictumst. Morbi at ultrices nisi, sed mollis eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id malesuada tortor, et varius libero. Aenean lectus lectus, tempor ut iaculis non, rutrum et urna. Fusce et lectus neque. Cras sit amet feugiat mauris, id accumsan risus. Vivamus eleifend sem et mauris malesuada convallis.
+        <br><br>
+        Praesent scelerisque nisl eu nunc dictum, nec mattis est iaculis. Etiam sodales, eros vitae venenatis lobortis, ligula eros aliquam erat, id suscipit erat justo eu erat. Duis vitae lacinia ex. Aenean efficitur sodales tortor consequat feugiat. Mauris quis tincidunt dolor. Fusce ultrices condimentum justo, at ullamcorper dolor sagittis viverra. In hac habitasse platea dictumst. Praesent volutpat cursus tellus, quis facilisis ipsum fringilla in. Donec ac ex consequat, viverra justo sit amet, porttitor mi. Mauris dignissim nunc quis magna euismod, ut consectetur lacus convallis. Donec eu sagittis risus. Nulla lacinia, sapien sed dictum faucibus, ex nunc iaculis mauris, quis feugiat quam enim non nisl. Nullam dictum aliquet arcu, vel efficitur est malesuada vel.
+      </p>
     </div>
   </div>
 

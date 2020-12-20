@@ -19,6 +19,41 @@ body {
   text-decoration: none;
 }
 
+button.navbar-toggle { /* nav button */
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 0;
+  margin: 0;
+  border-color: 1px solid grey;
+  border-radius: 5px;
+}
+
+.icon-bar {
+  clear: both;
+  float: left;
+  width: 40px;
+  padding: 5px;
+  background-color: grey;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+#nav-list li { /* collapsable nav menu */
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#nav-list a:hover{
+  background: grey;
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: black;
+}
+
 .menu { /* Our menu */
   margin-left: auto;
   margin-right: auto;
@@ -46,5 +81,8 @@ body {
 
 /* Mobile / Extra small devices */
 @media (max-width: 575px) {
-  
+  .menu-section {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
