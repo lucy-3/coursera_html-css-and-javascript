@@ -42,6 +42,8 @@ button.navbar-toggle { /* nav button */
   background-color: #D7FDF9;
   font-size: 1.25em;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #nav-list li {
@@ -62,6 +64,10 @@ button.navbar-toggle { /* nav button */
 .menu { /* Our menu */
   text-align: center;
   padding: 0 0 10px 0;
+}
+
+.menu-category {
+  text-align: center;
 }
 
 .menu-section { /* Chicken, Beef, Sushi */
